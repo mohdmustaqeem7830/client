@@ -30,11 +30,11 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         app:adSize="LARGE_BANNER"
-        app:adUnitId="ca-app-pub-8361951530588983/1653758758"
+        app:adUnitId="ca-app-pub-1621842572433739/5004441289"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        tools:ignore="MissingConstraints"></com.google.android.gms.ads.AdView>
+        tools:ignore="MissingConstraints"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

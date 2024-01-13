@@ -13,6 +13,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Toast;
 
+import com.Hamza.niosgeniusbookshub.Categories.Categories_hindi_english;
 import com.Hamza.niosgeniusbookshub.Categories.tenth_categories;
 import com.Hamza.niosgeniusbookshub.Categories.twelthcategories;
 import com.Hamza.niosgeniusbookshub.R;
@@ -81,7 +82,12 @@ public class HomeFragments extends Fragment {
                 vocational.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(requireContext(), study_material.class);
+//                Intent intent = new Intent(requireContext(), study_material.class);
+//                intent.putExtra("key","VOCATIONAL Not Required_Not Required");
+//                startActivity(intent);
+
+
+                Intent intent = new Intent(requireContext(), Categories_hindi_english.class);
                 intent.putExtra("key","VOCATIONAL Not Required_Not Required");
                 startActivity(intent);
             }

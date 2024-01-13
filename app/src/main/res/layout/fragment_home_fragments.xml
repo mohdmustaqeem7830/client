@@ -283,7 +283,7 @@
                             android:textColor="@color/bluecolor"
                             android:background="@color/bordercolor"
 
-                            android:text="Notification"
+                            android:text="Latest Update"
                             android:textAlignment="center" />
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>

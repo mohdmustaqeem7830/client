@@ -15,6 +15,9 @@
         android:theme="@style/Theme.NIOSGenius"
         tools:targetApi="31">
         <activity
+            android:name=".Categories.Categories_hindi_english"
+            android:exported="false" />
+        <activity
             android:name=".ViewPdf"
             android:exported="false" />
         <activity
@@ -76,7 +79,7 @@
         </activity> <!-- Sample AdMob app ID: ca-app-pub-3940256099942544~3347511713 -->
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
-            android:value="ca-app-pub-8361951530588983~3679290905" />
+            android:value="ca-app-pub-1621842572433739~4336542663" />
     </application>
 
 </manifest>
