@@ -246,7 +246,7 @@ public class twelthcategories extends AppCompatActivity {
     }
     public void loadreward() {
         AdRequest Request = new AdRequest.Builder().build();
-        RewardedAd.load(twelthcategories.this, "ca-app-pub-8361951530588983/2899337913",
+        RewardedAd.load(twelthcategories.this, "ca-app-pub-1621842572433739/2017554987",
                 Request, new RewardedAdLoadCallback() {
                     @Override
                     public void onAdFailedToLoad(@NonNull LoadAdError loadAdError) {
